@@ -1,10 +1,20 @@
 
 <ion-header>
+  <div id="menu">
   <ion-navbar>
-    <ion-title>Menu</ion-title>
+    <ion-title id="tituloMenu">Menu</ion-title>
   </ion-navbar>
+  </div>
 </ion-header>
 
 <ion-content padding>
-
+  <!--<img src="../../assets/imgs/logoAcic.png"/>-->
+  <ion-list>  
+    <ion-item text-center (click)="direciona('A')">Pedidos</ion-item>
+    <ion-item text-center (click)="direciona('A')">Vendas</ion-item>
+    <ion-item text-center (click)="direciona('S')">Produtos</ion-item>
+    <ion-item text-center (click)="direciona('B')">Anotações</ion-item>
+    <ion-item text-center (click)="direciona('E')">Relatórios</ion-item>
+    
+  </ion-list>
 </ion-content>
